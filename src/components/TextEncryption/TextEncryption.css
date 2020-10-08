@@ -1,0 +1,64 @@
+.Input {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    box-sizing: border-box;
+    resize: none;
+    height: 50px;
+    width: 80%;
+}
+
+.Input:focus {
+    outline: none;
+}
+
+.Textarea {
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 60%;
+    box-sizing: border-box;
+    margin: 10px auto;
+    resize: none;
+    height: 100px;
+}
+
+.Textarea:focus {
+    outline: none;
+}
+
+label{
+    display: block;
+    width: 60%;
+    margin: 5px auto;
+}
+
+.Encode {
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.Buttons{
+    display: flex;
+    width: 15%;
+}
+
+.arrowBottom{
+    font-size: 25px;
+    margin-right: 5px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.arrowTop{
+    font-size: 25px;
+    width: 60px;
+    cursor: pointer;
+}
