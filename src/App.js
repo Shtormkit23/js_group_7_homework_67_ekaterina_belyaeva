@@ -1,9 +1,9 @@
 import React from 'react';
-import EnterPassword from "./container/EnterPassword/EnterPassword";
+import DecodedAndEncoded from "./container/DecodedAndEncoded/DecodedAndEncoded";
 
 
 const App = () => {
-  return <EnterPassword/>;
+  return <DecodedAndEncoded/>;
 }
 
 export default App;
